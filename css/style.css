@@ -7,7 +7,7 @@
 body{
     background-color: #0C0C0C;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #190031;
 }
 
@@ -17,26 +17,31 @@ body{
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 100;
+    line-height: 110px;
     
     
         
 }
 
 .display-2{
-    font-size: 26px;
-    letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing:3px;
     padding-top: 16px;
     padding-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
     
 }
 
 .playfair{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100;
     
 }
 
 .playfair-regular{
     font-family: 'Playfair Display SC', serif;
+    
     
 }
 
@@ -73,20 +78,24 @@ body{
 
 .banner{
     
-    background-image: url(../img/santos-color-1.png);
+    background-image: url(../img/santos-color-2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: initial;
+    background-size: contain;
     height: 600px;
     display: flex;
     align-items: center;
+    
     
       
       
 }
 
 
-
+p {
+    line-height: 20px;
+    font-size: 16px;
+}
 
 .titular{
     width: 100%;
@@ -154,13 +163,16 @@ body{
     display: inline-block;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 .button-2{
     background-color: #6400c2;
     color: aliceblue;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 4px;
@@ -168,14 +180,19 @@ body{
     display: inline-block;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
+
+
 .donacion{
-    background-image: linear-gradient(#e5f7fd, #e5e7fd);
+    background-color: #827DF6;
 }
 
 .prensa{
-    background-color: #eeeeee;
+    background-color: #0C0C0C;
 }
 
 .m-auto{
@@ -194,6 +211,11 @@ body{
 .space-section{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.space-section-img{
+    padding-top: 40px;
+    
 }
 
 footer{
