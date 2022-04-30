@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #e7e7e7;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #190031;
+}
+
+.display-1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 140px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 900;
+        
+}
+
+.display-2{
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.playfair{
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.playfair-regular{
+    font-family: 'Playfair Display SC', serif;
+    
+}
+
+
+
+@media(max-width: 800px){
+    .display-1{
+        font-size: 80px;
+    }
+}
+
+.sans{
+    font-family: 'Playfair Display', serif;
+   
+        
+}
+
+.text-center{
+    text-align: center;
+}
+
+.all-caps{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+.banner{
+    
+    background-image: url(../img/santos-color-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+      
+      
+}
+
+
+
+
+.titular{
+    width: 100%;
+}
+
+.titular p {
+    margin-top: 0;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col-12{
+    width: 100%;
+    flex: auto;
+}
+
+.col-6{
+    width: 50%;
+    flex: auto;
+}
+
+.col-4{
+    width: 33.3%;
+    flex: auto;
+}
+
+.col-3{
+    width: 25%;
+    flex: auto;
+}
+
+.col-2-4{
+    width: 20%;
+    flex: auto;
+}
+
+
+@media (max-width: 576px){
+    .col-sm-12{
+        width: 100%;
+        flex: auto;
+    }
+}
+
+.button-1{
+    background-color: #6400c2;
+    color: aliceblue;
+    padding: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.button-2{
+    background-color: #6400c2;
+    color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.donacion{
+    background-image: linear-gradient(#e5f7fd, #e5e7fd);
+}
+
+.prensa{
+    background-color: #eeeeee;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.py-3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pr-1{
+    padding-right: 16px;
+}
+
+.space-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: black;
+    
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+    
+}
+
+.line{
+    line-height: 22px;
+}
