@@ -3,15 +3,7 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#190031;}
+	.st0{fill:#FFFFFF;}
 </style>
-<g>
-	<g>
-		<g>
-			<path class="st0" d="M245,8.2c-62.8,0-123,24.9-167.4,69.4S8.2,182.2,8.2,245s24.9,123,69.4,167.4s104.6,69.4,167.4,69.4
-				s123-24.9,167.4-69.4s69.4-104.6,69.4-167.4s-24.9-123-69.4-167.4S307.8,8.2,245,8.2L245,8.2z M185.8,343.7V146.3l177.6,101.5
-				L185.8,343.7z"/>
-		</g>
-	</g>
-</g>
+<polygon class="st0" points="156.2,343.7 156.2,146.3 333.8,247.8 "/>
 </svg>

@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+@font-face{
+    font-family: 'TimesNow';
+    src: url(../fonts/TimesNow-SemiLightItalic.woff) ;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  @font-face{
+    font-family: 'TradeGothic';
+    src: url(../fonts/TradeGothicLT-Extended.woff) ;
+    font-style: normal;
+    font-weight: 500;
+  }
+
 body{
     background-color: #0C0C0C;
     margin: 0;
@@ -11,13 +25,15 @@ body{
     color: #190031;
 }
 
+
+
 .display-1{
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'TimesNow';
     font-size: 140px;
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 100;
-    line-height: 110px;
+    line-height: 120px;
     
     
         
@@ -33,14 +49,29 @@ body{
     
 }
 
+.display-3{
+    font-size: 20px;
+    padding-top: 28px;
+    padding-bottom: 16px;
+    font-family: 'TradeGothic';
+    
+    
+}
+
+.opacity-70{
+    opacity: 0.7;
+}
+
 .playfair{
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'TimesNow';
     font-weight: 100;
+    letter-spacing: 2px;
     
 }
 
 .playfair-regular{
     font-family: 'Playfair Display SC', serif;
+    
     
     
 }
@@ -57,6 +88,7 @@ body{
 @media(max-width: 800px){
     .display-1{
         font-size: 80px;
+        line-height: 80px;
     }
 }
 
@@ -166,6 +198,7 @@ p {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+    font-family: 'TradeGothic';
 }
 
 .button-2{
@@ -183,6 +216,7 @@ p {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+    font-family: 'TradeGothic';
 }
 
 
