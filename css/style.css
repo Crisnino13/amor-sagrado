@@ -131,6 +131,7 @@ p {
     line-height: 20px;
     font-size: 16px;
     letter-spacing: 0.2px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .titular{
@@ -182,10 +183,25 @@ p {
     flex: auto;
 }
 
+.col-2{
+    width: 16.6%;
+    flex: auto;
+}
+
+.col-8{
+    width: 66.6%;
+    flex: auto;
+}
+
 
 @media (max-width: 576px){
     .col-sm-12{
         width: 100%;
+        flex: auto;
+    }
+
+    .col-sm-6{
+        width: 50%;
         flex: auto;
     }
 }
@@ -242,6 +258,11 @@ p {
     padding-bottom: 16px;
 }
 
+.px-4{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
 .pr-1{
     padding-right: 16px;
 }
@@ -269,4 +290,9 @@ footer p{
 
 .line{
     line-height: 22px;
+    
+}
+
+.bg-white{
+    background-color: #F9F5E9;
 }
