@@ -85,6 +85,10 @@ body{
     color: #827DF6;
 }
 
+.color-black{
+    color: #0C0C0C;
+}
+
 
 @media(max-width: 800px){
     .display-1{
@@ -188,9 +192,48 @@ p {
     flex: auto;
 }
 
+.w-2{
+    width: 16.6%;
+    
+}
+
 .col-8{
     width: 66.6%;
     flex: auto;
+}
+
+.w-8{
+    width: 66.6%;
+    
+}
+
+.w-12{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-block{
+    display: block;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.px-4{
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 
@@ -204,6 +247,32 @@ p {
         width: 50%;
         flex: auto;
     }
+
+    .w-sm-12{
+        width: 100%;
+    }
+
+    .w-sm-6{
+        width: 50%;
+    }
+
+    .float-sm-left{
+        float: left;
+    }
+    
+    .float-sm-right{
+        float: right;
+    }
+
+    .px-sm-2{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .px-sm-0{
+        padding: 0;
+    }
+
 }
 
 .button-1{
@@ -258,10 +327,7 @@ p {
     padding-bottom: 16px;
 }
 
-.px-4{
-    padding-left: 32px;
-    padding-right: 32px;
-}
+
 
 .pr-1{
     padding-right: 16px;
@@ -296,3 +362,9 @@ footer p{
 .bg-white{
     background-color: #F9F5E9;
 }
+
+.bg-purpura{
+    background-color: #827DF6;
+      
+}
+
