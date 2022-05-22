@@ -324,6 +324,13 @@ p {
   
     }
 
+    .quote{
+        font-size: 28px;
+        line-height: 40px;
+        font-family: 'TimesNow-regular';
+        letter-spacing: 1px;
+    }
+
 }
 
 .button-1{
