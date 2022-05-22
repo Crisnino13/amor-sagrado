@@ -12,6 +12,14 @@
   }
 
   @font-face{
+    font-family: 'TimesNow-regular';
+    src: url(../fonts/TimesNow-Light.woff) ;
+    font-style: normal;
+    font-weight: 100;
+    
+  }
+
+  @font-face{
     font-family: 'TradeGothic';
     src: url(../fonts/TradeGothicLT-Extended.woff) ;
     font-style: normal;
@@ -164,6 +172,12 @@ p {
     margin-top: 0;
 }
 
+.quote{
+    font-size: 40px;
+    line-height: 56px;
+    font-family: 'TimesNow-regular';
+    letter-spacing: 1px;
+}
 
 
 .container{
@@ -254,6 +268,13 @@ p {
     padding-right: 32px;
 }
 
+.menu-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: #0c0c0cc2;
+    z-index: 100;
+}
+
 
 @media (max-width: 576px){
     .col-sm-12{
@@ -289,6 +310,18 @@ p {
 
     .px-sm-0{
         padding: 0;
+    }
+
+    .banner{
+    
+        background-image: url(../img/banner-home-2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        align-items: center;
+  
     }
 
 }
