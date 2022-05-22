@@ -89,11 +89,29 @@ body{
     color: #0C0C0C;
 }
 
+.timeline{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    z-index: -1;
+}
+
+.position-relative{
+    position: relative;
+}
 
 @media(max-width: 800px){
     .display-1{
         font-size: 80px;
         line-height: 80px;
+    }
+
+    .timeline{
+        position: absolute;
+        left: 0;
+        top: 45%;
+        z-index: -1;
+        display: none;
     }
 }
 
