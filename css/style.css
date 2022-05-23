@@ -370,8 +370,11 @@ p {
         height: 616px;
         display: flex;
         align-items: center;
+        margin-top: 20px;
   
     }
+
+    
 
     .quote{
         font-size: 28px;
