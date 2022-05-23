@@ -136,6 +136,11 @@ body{
     
 }
 
+.ivideo{
+    display: block; 
+    padding-top: 83px;
+}
+
 .difumino{
     background-image: linear-gradient(180deg, #0C0C0C00 , #0C0C0C);
     height: 300px;
@@ -367,7 +372,7 @@ p {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 616px;
+        height: 579px;
         display: flex;
         align-items: center;
         margin-top: 20px;
@@ -381,6 +386,11 @@ p {
         line-height: 40px;
         font-family: 'TimesNow-regular';
         letter-spacing: 1px;
+    }
+
+    .ivideo{
+        display: block; 
+        padding-top: 100px;
     }
 
 }
