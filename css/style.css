@@ -111,17 +111,29 @@ body{
 
 .banner{
     
-    background-image: url(../img/banner-home-2.png);
+    /**background-image: url(../img/banner-home-2.png);**/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 600px;
+    height: 616px;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-bottom: 0;
     padding-top: 140px;
          
+}
+
+.video-bg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    
+    
+    
 }
 
 .difumino{
@@ -150,11 +162,11 @@ body{
 
     .banner{
     
-        background-image: url(../img/banner-home-2.png);
+        /**background-image: url(../img/banner-home-2.png);**/
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 600px;
+        height: 616px;
         display: flex;
         align-items: center;
   
@@ -165,11 +177,11 @@ body{
    
     .banner{
     
-        background-image: url(../img/banner-home-2.png);
+        /**background-image: url(../img/banner-home-2.png);**/
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 600px;
+        height: 616px;
         display: flex;
         align-items: center;
   
@@ -351,11 +363,11 @@ p {
 
     .banner{
     
-        background-image: url(../img/banner-home-2.png);
+        /**background-image: url(../img/banner-home-2.png);**/
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 600px;
+        height: 616px;
         display: flex;
         align-items: center;
   
