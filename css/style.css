@@ -20,6 +20,14 @@
   }
 
   @font-face{
+    font-family: 'Cormorant-bold';
+    src: url(../fonts/Cormorant-Bold.ttf) ;
+    font-style: normal;
+    font-weight: 100;
+    
+  }
+
+  @font-face{
     font-family: 'TradeGothic';
     src: url(../fonts/TradeGothicLT-Extended.woff) ;
     font-style: normal;
@@ -33,7 +41,10 @@ body{
     color: #190031;
 }
 
-
+a {
+    color: #9999ff;
+    text-decoration: none;
+}
 
 .display-1{
     font-family: 'TimesNow';
@@ -92,12 +103,16 @@ body{
     
 }
 
+.cormorant-bold{
+    font-family: 'Cormorant-bold';
+}
+
 .color-white{
     color: #e5e7fd;
 }
 
 .color-purple{
-    color: #827DF6;
+    color: #5f5fff;
 }
 
 .color-black{
@@ -128,6 +143,7 @@ body{
     flex-direction: column;
     padding-bottom: 0;
     padding-top: 140px;
+    position: relative;
          
 }
 
@@ -159,7 +175,7 @@ body{
 }
 
 .creative{
-    display: block;
+    display: inline-flex;
 }
 
 
@@ -191,6 +207,7 @@ body{
         height: 616px;
         display: flex;
         align-items: center;
+        position: relative;
   
     }
 }
@@ -206,6 +223,7 @@ body{
         height: 616px;
         display: flex;
         align-items: center;
+        position: relative;
   
     }
 }
@@ -224,7 +242,7 @@ body{
 
 .all-caps{
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 
@@ -346,8 +364,23 @@ p {
     z-index: 100;
 }
 
+.mx-4{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
 
 @media (max-width: 576px){
+
+    .pt-sm-4{
+       padding-top: 20px;
+    }
+
+    .m-sm-0{
+        margin: 0;
+    }
     .text-left-sm{
         text-align: left;
     }
@@ -403,6 +436,7 @@ p {
         display: flex;
         align-items: center;
         margin-top: 20px;
+        position: relative;
   
     }
 
@@ -420,12 +454,20 @@ p {
         padding-top: 84px;
     }
 
+    .creative{
+        display: block;
+    }
+    
+
 }
 
 .button-1{
-    background-color: #6400c2;
+    background-color: #5f5fff;
     color: aliceblue;
-    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -438,10 +480,10 @@ p {
 }
 
 .button-2{
-    background-color: #6400c2;
+    background-color: #5f5fff;
     color: aliceblue;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 4px;
@@ -458,7 +500,7 @@ p {
 
 
 .donacion{
-    background-color: #827DF6;
+    background-color: #9999ff;
 }
 
 .prensa{
