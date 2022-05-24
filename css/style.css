@@ -137,7 +137,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 616px;
+    height: 630px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -161,7 +161,7 @@ a {
 
 .ivideo{
     display: block; 
-    padding-top: 83px;
+    padding-top: 69px;
 }
 
 .difumino{
@@ -204,7 +204,7 @@ a {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 616px;
+        height: 630px;
         display: flex;
         align-items: center;
         position: relative;
@@ -220,7 +220,7 @@ a {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 616px;
+        height: 630px;
         display: flex;
         align-items: center;
         position: relative;
@@ -432,7 +432,7 @@ p {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 595px;
+        height: 610px;
         display: flex;
         align-items: center;
         margin-top: 20px;
@@ -451,7 +451,7 @@ p {
 
     .ivideo{
         display: block; 
-        padding-top: 84px;
+        padding-top: 69px;
     }
 
     .creative{
