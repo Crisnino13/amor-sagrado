@@ -67,6 +67,13 @@ body{
     
 }
 
+.display-4{
+    font-size: 20px;
+    font-family: 'TradeGothic';
+    letter-spacing: 2px; 
+    
+}
+
 .opacity-70{
     opacity: 0.7;
 }
@@ -151,7 +158,17 @@ body{
     
 }
 
+.creative{
+    display: block;
+}
+
+
+
 @media(max-width: 800px){
+    .d-none-md{
+        display: none;
+    }
+
     .display-1{
         font-size: 80px;
         line-height: 80px;
@@ -331,6 +348,14 @@ p {
 
 
 @media (max-width: 576px){
+    .text-left-sm{
+        text-align: left;
+    }
+
+    .d-none{
+        display: none;
+    }
+
     .col-sm-12{
         width: 100%;
         flex: auto;
@@ -445,6 +470,11 @@ p {
 .py-3{
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.px-3{
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
