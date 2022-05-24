@@ -374,6 +374,8 @@ p {
         width: 50%;
     }
 
+    
+
     .float-sm-left{
         float: left;
     }
@@ -397,7 +399,7 @@ p {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 579px;
+        height: 595px;
         display: flex;
         align-items: center;
         margin-top: 20px;
@@ -415,7 +417,7 @@ p {
 
     .ivideo{
         display: block; 
-        padding-top: 100px;
+        padding-top: 84px;
     }
 
 }
@@ -432,7 +434,7 @@ p {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
-    font-family: 'TradeGothic';
+    font-family: 'Heebo', sans-serif;
 }
 
 .button-2{
@@ -450,7 +452,7 @@ p {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
-    font-family: 'TradeGothic';
+    font-family: 'Heebo', sans-serif;
 }
 
 
